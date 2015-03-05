@@ -1,0 +1,18 @@
+Things to do:
+
+1) KeyTap isn't the most reliable, and its recommended looking for alternatives. One of the more reliable "triggers" suggested is to write something which detects when the thumb touches the index finger (pinch gesture), and emitting a "click" event when that happens. That's reliable & nice because it doesn't move the hand or finger too much while doing so. (Unlike keytap, or poking a finger forwards through an imaginary plane.)
+Example to see at pinch gesture. 
+https://developer.leapmotion.com/gallery/finger-angle
+https://developer.leapmotion.com/gallery/finger-angle-signed
+
+2) Another alternative can be the Touch gesture.
+Example to see a Touch Emulation
+https://developer.leapmotion.com/documentation/javascript/devguide/Leap_Touch_Emulation.html?highlight=touch
+
+3) Currently, the API doesn't work very well on websites build with HTML 5.  Also if the menu (links) was JavaScript drop-down, then this is also a issue.  These are existing issue and requires more R&D.
+
+4) Sky's the limit
+
+
+Pritesh Chandra
+2015-03-05
